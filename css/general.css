@@ -146,6 +146,11 @@ body {
   margin-bottom: 9.6rem;
 }
 
+.heading-social {
+  font-size: 4.4rem;
+  line-height: 1.2;
+}
+
 .heading-tertiary {
   font-size: 3rem;
   line-height: 1.2;
@@ -160,6 +165,10 @@ body {
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
+}
+
+.margin-bottom-md {
+  margin-bottom: 9.6rem;
 }
 
 .icon {

@@ -65,6 +65,8 @@ allLinks.forEach(function (link) {
 // Sticky navigation
 
 const sectionHeroEl = document.querySelector(".section-hero");
+const sectionNuEl = document.querySelector(".nu-box");
+const sectionServiceEl = document.querySelector(".service-box");
 
 const obs = new IntersectionObserver(
   function (entries) {
@@ -87,6 +89,8 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
+obs.observe(sectionNuEl);
+obs.observe(sectionServiceEl);
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
@@ -107,3 +111,27 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
+
+document.querySelector(".nu-btn").addEventListener("click", () => {
+  document.querySelector(".nu-line-page").style.display = "block";
+  document.querySelector(".mu-line-page").style.display = "none";
+  document.querySelector(".service-page").style.display = "none";
+});
+
+document.querySelector(".service-btn").addEventListener("click", () => {
+  document.querySelector(".nu-line-page").style.display = "none";
+  document.querySelector(".mu-line-page").style.display = "none";
+  document.querySelector(".service-page").style.display = "block";
+});
+
+document.querySelector(".logo").addEventListener("click", () => {
+  document.querySelector(".nu-line-page").style.display = "none";
+  document.querySelector(".mu-line-page").style.display = "block";
+  document.querySelector(".service-page").style.display = "none";
+});
+
+document.querySelector(".mu-btn").addEventListener("click", () => {
+  document.querySelector(".nu-line-page").style.display = "none";
+  document.querySelector(".mu-line-page").style.display = "block";
+  document.querySelector(".service-page").style.display = "none";
+});

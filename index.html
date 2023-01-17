@@ -3,14 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta 
-    name="description"
-    content=""
-    />
+    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
-    <link rel="icon" href="img/favicon.png" /> 
+    <link rel="icon" href="img/favicon.png" />
     <link rel="apple-touch-icon" href="img/favicon.png" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -30,7 +26,6 @@
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
 
-
     <script defer src="script.js"></script>
 
     <title>Mu Line</title>
@@ -38,19 +33,23 @@
   <body>
     <header class="header">
       <a href="#prestige">
-        <img class="logo" alt="Prestige logo" src="img/logo.png" />
+        <img class="logo" alt="Prestige logo" src="img/new_logo.JPG" />
       </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#line">Discover</a></li>
-          <li><a class="main-nav-link" href="#social">Socials</a></li>
-          <li>
+          <!-- <li><a class="main-nav-link" href="#line">Discover</a></li> -->
+          <!-- <li><a class="main-nav-link" href="#social">Socials</a></li> -->
+          <!-- <li>
             <a class="main-nav-link" href="#bowl">Highlights</a>
           </li>
           <li><a class="main-nav-link" href="#meme">Memes</a></li>
-          <li><a class="main-nav-link" href="#event">Events</a></li>
-          <li><a class="main-nav-link" href="#cta">Link</a></li>
+          <li><a class="main-nav-link" href="#event">Events</a></li> -->
+          <li><a class="main-nav-link service-btn" href="#">Service</a></li>
+          <li><a class="main-nav-link mu-btn" href="#">Meet MU Line</a></li>
+          <li>
+            <a class="main-nav-link nu-btn" href="#">Meet NU Line</a>
+          </li>
         </ul>
       </nav>
 
@@ -60,31 +59,46 @@
       </button>
     </header>
 
-    <main>
+    <main class="mu-line-page">
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-              ODPhi Presents: <br><span>Spring '22 Mu "Prestige" Line</span>
+              ODPhi Presents: <br /><span>Spring '22 Mu "Prestige" Line</span>
             </h1>
             <p class="hero-description">
-              The purpose of this Brotherhood, a service/social fraternity dedicated to the needs and concerns of the community, shall be to promote and maintain the traditional values of Unity, Honesty, Integrity, and Leadership. This Brotherhood was founded in order to provide, to ANY man, a diverse fraternal experience which coincides with a higher education. 
+              The purpose of this Brotherhood, a service/social fraternity
+              dedicated to the needs and concerns of the community, shall be to
+              promote and maintain the traditional values of Unity, Honesty,
+              Integrity, and Leadership. This Brotherhood was founded in order
+              to provide, to ANY man, a diverse fraternal experience which
+              coincides with a higher education.
             </p>
             <a href="#cta" class="btn btn--full margin-right-sm">Meet Us</a>
 
             <div class="header-mini-imgs">
               <div class="mini-imgs">
-                <a href="#one"><img src="img/mini-kyle.webp" alt="Ace photo" /></a>
-                <a href="#dos"><img src="img/mini-alex.webp" alt="Dos photo" /></a>
-                <a href="#tres"><img src="img/mini-diego.webp" alt="Tre photo" /></a>
-                <a href="#quad"><img src="img/mini-francisco.webp" alt="Quad photo" /></a>
-                <a href="#anchor"><img src="img/mini-frank.webp" alt="Anchor photo" /></a>
+                <a href="#one"
+                  ><img src="img/mini-kyle.webp" alt="Ace photo"
+                /></a>
+                <a href="#dos"
+                  ><img src="img/mini-alex.webp" alt="Dos photo"
+                /></a>
+                <a href="#tres"
+                  ><img src="img/mini-diego.webp" alt="Tre photo"
+                /></a>
+                <a href="#quad"
+                  ><img src="img/mini-francisco.webp" alt="Quad photo"
+                /></a>
+                <a href="#anchor"
+                  ><img src="img/mini-frank.webp" alt="Anchor photo"
+                /></a>
               </div>
             </div>
           </div>
           <div class="hero-img-box">
             <img
-              src="img/group-photo.webp"
+              src="img/group_pic.jpg"
               class="hero-img"
               alt="Mu Line taking a picture with the Rock"
             />
@@ -100,14 +114,22 @@
 
         <div class="container">
           <div class="carousel">
-
             <ul class="memeber-slides">
               <li class="slide-item grid--2-cols">
                 <div id="one" class="member-info">
                   <h2 class="member-order">Ace</h2>
                   <p class="name-text">Kyle Romero</p>
                   <p class="info-text">
-                    Holds the position of <strong><u>Recruitment & Athletic Chair</u></strong> in OdiPhi.Is currently a <strong><u>Senior</u></strong> at UIC majoring in <strong><u>Applied Psychology</u></strong> with a minor in <strong><u>PUBH</u></strong>.
+                    Position:
+                    <strong>Recruitment Chair</strong>
+                    <br />
+                    Year:
+                    <strong>Senior</strong>
+                    <br />Major: <strong>Applied Psychology</strong> and a Minor
+                    in <strong>PUBH</strong> <br /><strong
+                      >Sir Xochilpilli</strong
+                    >
+                    <u>#46</u>
                   </p>
                 </div>
                 <div class="img-box">
@@ -131,7 +153,14 @@
                   <h2 class="member-order">Deuce</h2>
                   <p class="name-text">Alex Diaz</p>
                   <p class="info-text">
-                    Holds the position of <strong><u>Social & Fundraising Chair</u></strong> in OdiPhi. Is currently a <strong><u>Senior</u></strong> at UIC majoring in <strong><u>Political Science</u></strong>.
+                    Position:
+                    <strong>VP, Social AND Fundraising Chair</strong>
+                    <br />
+                    Year:
+                    <strong>Senior</strong>
+                    <br />Major: <strong>Political Science</strong>
+                    <br /><strong>Sir Cyrus</strong>
+                    <u>#47</u>
                   </p>
                 </div>
               </li>
@@ -141,7 +170,16 @@
                   <h2 class="member-order">Tres</h2>
                   <p class="name-text">Diego Castillo</p>
                   <p class="info-text">
-                    Holds the position of <strong><u>Secretary & LG Representative</u></strong> in OdiPhi. Is currently a <strong><u>Senior</u></strong> at UIC majoring in <strong><u>Marketing - Data & Metrics</u></strong>.
+                    Position:
+                    <strong
+                      >Academic, LGC Representative, and Stroll Master</strong
+                    >
+                    <br />
+                    Year:
+                    <strong>Senior</strong>
+                    <br />Major: <strong>Marketing - Data & Metrics</strong>
+                    <br /><strong>Sir Sonador</strong>
+                    <u>#48</u>
                   </p>
                 </div>
                 <div class="img-box">
@@ -165,7 +203,15 @@
                   <h2 class="member-order">Quad</h2>
                   <p class="name-text">Francisco Hernendez</p>
                   <p class="info-text">
-                    Holds the position of <strong><u>Academic Chair</u></strong> in OdiPhi. Is currently a <strong><u>Senior</u></strong> at UIC majoring in <strong><u>Criminal justice and Psychology</u></strong>.
+                    Position:
+                    <strong>Secretary</strong>
+                    <br />
+                    Year:
+                    <strong>Senior</strong>
+                    <br />Major:
+                    <strong>Criminal justice and Psychology</strong>
+                    <br /><strong>Sir Le</strong>
+                    <u>#49</u>
                   </p>
                 </div>
               </li>
@@ -175,7 +221,15 @@
                   <h2 class="member-order">Anchor</h2>
                   <p class="name-text">Frank Mensah</p>
                   <p class="info-text">
-                    Holds the position of <strong><u>Service Chair</u></strong> in OdiPhi. Is currently a <strong><u>Junior</u></strong> at UIC majoring in <strong><u>Computer Science</u></strong>.
+                    Position:
+                    <strong>Service and Mental Health Chair</strong>
+                    <br />
+                    Year:
+                    <strong>Junior</strong>
+                    <br />Major: <strong>Computer Science</strong> <br /><strong
+                      >Sir Asante</strong
+                    >
+                    <u>#50</u>
                   </p>
                 </div>
                 <div class="img-box">
@@ -191,7 +245,7 @@
         </div>
       </section>
 
-      <section id="social" class="section-socials">
+      <!-- <section id="social" class="section-socials">
         <div class="container">
           <span class="subheading center-text social-title"
             >&mdash; Socials &mdash;
@@ -309,7 +363,7 @@
           </div>
           
         </div>
-      </section>
+      </section> -->
 
       <section id="prestige" class="section-prestige">
         <div class="container">
@@ -323,13 +377,17 @@
           <div class="prestige-cards grid--3-cols">
             <div class="book-def">
               <p class="prestige-text para">
-                (n) - <br><strong>reputation</strong> or influence arising from
-                <strong>success</strong>, <strong>achievement</strong>, rank, or
-                other favorable attributes.
+                (n) - <br /><strong>reputation</strong> or influence arising
+                from <strong>success</strong>, <strong>achievement</strong>,
+                rank, or other favorable attributes.
               </p>
             </div>
             <div class="p-img-box">
-              <img class="prestige-img" src="img/prestige-photo.webp" alt="Group arm cross photo" />
+              <img
+                class="prestige-img"
+                src="img/prestige-photo.webp"
+                alt="Group arm cross photo"
+              />
             </div>
             <div class="our-def">
               <ul class="prestige-acro">
@@ -368,7 +426,11 @@
           <span class="subheading center-text"
             >&mdash; Bowling Highlights &mdash;</span
           >
-          <h2 class="heading-secondary center-text bowling-title"><ion-icon class="icon" name="bowling-ball-outline"></ion-icon> Bowling Squad <ion-icon class="icon" name="bowling-ball-outline"></ion-icon></h2>
+          <h2 class="heading-secondary center-text bowling-title">
+            <ion-icon class="icon" name="bowling-ball-outline"></ion-icon>
+            Bowling Squad
+            <ion-icon class="icon" name="bowling-ball-outline"></ion-icon>
+          </h2>
 
           <div class="bowling-gallary-box">
             <video class="bowling-video" controls>
@@ -396,23 +458,23 @@
       <section id="meme" class="section-memes">
         <div class="container">
           <span class="subheading center-text">&mdash; Memes &mdash;</span>
-          <h2 class="heading-secondary center-text memes-title"><ion-icon class="icon" name="camera-outline"></ion-icon> Cursed Images <ion-icon class="icon" name="camera-outline"></ion-icon></h2>
+          <h2 class="heading-secondary center-text memes-title">
+            <ion-icon class="icon" name="camera-outline"></ion-icon> Cursed
+            Images <ion-icon class="icon" name="camera-outline"></ion-icon>
+          </h2>
 
           <div class="meme-gallary-box">
             <figure class="gallery-item">
               <img src="img/meme1.webp" alt="Francisco meme" />
             </figure>
             <figure class="gallery-item">
-              <img src="img/meme2.webp" alt="Diego meme" />
+              <img src="img/meme_kyle.jpg" alt="Kyle meme" />
             </figure>
             <figure class="gallery-item">
-              <img src="img/meme3.webp" alt="Frank meme" />
+              <img src="img/meme_alex.jpg" alt="Alex meme" />
             </figure>
             <figure class="gallery-item">
-              <img src="img/meme4.webp" alt="Alex meme" />
-            </figure>
-            <figure class="gallery-item">
-              <img src="img/meme5.jpg" alt="Francisco meme" />
+              <img src="img/meme_frank.jpg" alt="Frank meme" />
             </figure>
             <figure class="gallery-item">
               <img src="img/meme6.webp" alt="Diego meme" />
@@ -423,91 +485,131 @@
 
       <section class="section-actives" id="actives">
         <div class="container center-text">
-          <span class="subheading center-text">&mdash; Current Members not in Mu Line &mdash;</span>
-          <h2 class="heading-secondary center-text">
-            Active Members
-          </h2>
+          <span class="subheading center-text"
+            >&mdash; Current Members not in Mu Line &mdash;</span
+          >
+          <h2 class="heading-secondary center-text">Active Members</h2>
         </div>
 
         <div class="active-container margin-bottom-md">
           <div class="grid active-box">
-          <div class="active">
-            <div class="active-top">
-              <img
-                src="img/break_sam.webp"
-                class="active-img"
-                alt="Samuel Belmonte"
-              />
-              <div class="active-name">Samuel Belmonte</div>
+            <div class="active">
+              <div class="active-top">
+                <img
+                  src="img/break_sam.webp"
+                  class="active-img"
+                  alt="Rakan Sadat"
+                />
+                <div class="active-name">Rakan Sadat</div>
+              </div>
+              <div class="active-content">
+                <p class="active-title center-text">Sir Elias</p>
+                <ul class="active-attributes">
+                  <li class="active-attribute">
+                    <ion-icon
+                      class="active-icon"
+                      name="person-outline"
+                    ></ion-icon>
+                    <span><strong>Athletic Chair</strong> of ODPhi</span>
+                  </li>
+                  <li class="active-attribute">
+                    <ion-icon
+                      class="active-icon"
+                      name="school-outline"
+                    ></ion-icon>
+                    <span><strong>Junior</strong></span>
+                  </li>
+                  <li class="active-attribute">
+                    <ion-icon
+                      class="active-icon"
+                      name="book-outline"
+                    ></ion-icon>
+                    <span><strong>Computer Engineering</strong> Major</span>
+                  </li>
+                  <li class="active-attribute">
+                    <ion-icon
+                      class="active-icon"
+                      name="star-outline"
+                    ></ion-icon>
+                    <span>Crossed <strong>TBD</strong></span>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="active-content">
-              <p class="active-title center-text">Sir Corazon</p>
-              <ul class="active-attributes">
-                <li class="active-attribute">
-                  <ion-icon class="active-icon" name="person-outline"></ion-icon>
-                  <span><strong>Vice President</strong> of ODPhi</span>
-                </li>
-                <li class="active-attribute">
-                  <ion-icon class="active-icon" name="school-outline"></ion-icon>
-                  <span><strong>Senior</strong></span>
-                </li>
-                <li class="active-attribute">
-                  <ion-icon class="active-icon" name="book-outline"></ion-icon>
-                  <span><strong>Psychology</strong> and <strong>GWS</strong> Major</span>
-                </li>
-                <li class="active-attribute">
-                  <ion-icon class="active-icon" name="star-outline"></ion-icon>
-                  <span>Crossed <strong>Fall '19</strong></span>
-                </li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="active">
-            <div class="active-top">
-              <img
-                src="img/break-jose.webp"
-                class="active-img"
-                alt="Jose Mendez"
-              />
-              <div class="active-name">Jose Mendez</div>
-            </div>
-            <div class="active-content">
-              <p class="active-title center-text">Sir Valiente</p>
-              <ul class="active-attributes">
-                <li class="active-attribute">
-                  <ion-icon class="active-icon" name="person-outline"></ion-icon>
-                  <span><strong>President</strong> of ODPhi</span>
-                </li>
-                <li class="active-attribute">
-                  <ion-icon class="active-icon" name="school-outline"></ion-icon>
-                  <span><strong>Junior</strong></span>
-                </li>
-                <li class="active-attribute">
-                  <ion-icon class="active-icon" name="book-outline"></ion-icon>
-                  <span><strong>Mechanical Engineer</strong> Major</span>
-                </li>
-                <li class="active-attribute">
-                  <ion-icon class="active-icon" name="star-outline"></ion-icon>
-                  <span>Crossed <strong>Spring '21</strong></span>
-                </li>
-              </ul>
+            <div class="active">
+              <div class="active-top">
+                <img
+                  src="img/break-jose.webp"
+                  class="active-img"
+                  alt="Jose Mendez"
+                />
+                <div class="active-name">Jose Mendez</div>
+              </div>
+              <div class="active-content">
+                <p class="active-title center-text">Sir Valiente</p>
+                <ul class="active-attributes">
+                  <li class="active-attribute">
+                    <ion-icon
+                      class="active-icon"
+                      name="person-outline"
+                    ></ion-icon>
+                    <span><strong>President</strong> of ODPhi</span>
+                  </li>
+                  <li class="active-attribute">
+                    <ion-icon
+                      class="active-icon"
+                      name="school-outline"
+                    ></ion-icon>
+                    <span><strong>Junior</strong></span>
+                  </li>
+                  <li class="active-attribute">
+                    <ion-icon
+                      class="active-icon"
+                      name="book-outline"
+                    ></ion-icon>
+                    <span><strong>Mechanical Engineer</strong> Major</span>
+                  </li>
+                  <li class="active-attribute">
+                    <ion-icon
+                      class="active-icon"
+                      name="star-outline"
+                    ></ion-icon>
+                    <span>Crossed <strong>Spring '21</strong></span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </section>
 
       <section id="event" class="section-events">
         <div class="container">
-          <span class="subheading center-text">&mdash; Upcoming Events &mdash;</span>
-          <h2 class="heading-secondary center-text events-title"><ion-icon name="sparkles-outline"></ion-icon> Two Event Scheduled at the Moment <ion-icon name="sparkles-outline"></ion-icon></h2>
+          <span class="subheading center-text"
+            >&mdash; Upcoming Events &mdash;</span
+          >
+          <h2 class="heading-secondary center-text events-title">
+            <ion-icon name="sparkles-outline"></ion-icon> Two Event Scheduled at
+            the Moment <ion-icon name="sparkles-outline"></ion-icon>
+          </h2>
 
           <div class="container events">
-            <img class="event-img" src="img/meet-the-knights.webp" alt="meet the knights flier"/>
-            <img class="event-img" src="img/involvement_fair.webp" alt="involvement fair flier"/>
+            <img
+              class="event-img"
+              src="img/meet_the_knights.jpg"
+              alt="meet the knights flier"
+            />
+            <img
+              class="event-img"
+              src="img/meet_lgc.jpg"
+              alt="meet lgc flier"
+            />
           </div>
-          <p class="subheading center-text sm-margin-top">Make sure to come out and say hello, so we can get to know each other :)</p>
+          <p class="subheading center-text sm-margin-top">
+            Make sure to come out and say hello, so we can get to know each
+            other :)
+          </p>
         </div>
       </section>
 
@@ -517,7 +619,9 @@
             <div class="cta-text-box">
               <h2 class="heading-secondary">Lets Meet Up!</h2>
               <p class="cta-text">
-                This was only a glimpse into the life of Omege Delta Phi's Mu Line. If you would like to join or just hang out with us, let us know!
+                This was only a glimpse into the life of Omege Delta Phi's Mu
+                Line. If you would like to join or just hang out with us, let us
+                know!
               </p>
 
               <form class="cta-form" action="#">
@@ -554,30 +658,381 @@
                 </div>
 
                 <button class="btn btn--form">Link</button>
-
               </form>
             </div>
-            <div
-              class="cta-img-box"
-              role="img"
-              aria-label="the mu line"
-            ></div>
+            <div class="cta-img-box" role="img" aria-label="the mu line"></div>
           </div>
         </div>
       </section>
+    </main>
+
+    <main class="nu-line-page">
+      <div class="nu-box">
+        <div class="nu-img-box">
+          <img
+            class="noir-img"
+            src="img/nu_pic_withPME.JPG"
+            alt="nu line pic with PME"
+          />
+        </div>
+      </div>
+
+      <section id="line" class="section-breakdown">
+        <div class="container">
+          <span class="subheading center-text">&mdash; Who we are &mdash;</span>
+          <h2 class="heading-secondary center-text">Line Breakdown</h2>
+        </div>
+
+        <div class="container">
+          <div class="carousel">
+            <ul class="memeber-slides">
+              <li class="slide-item grid--2-cols">
+                <div id="one" class="member-info">
+                  <h2 class="member-order">Ace</h2>
+                  <p class="name-text">Hugo Miranda</p>
+                  <p class="info-text">
+                    Position:
+                    <strong>Alumni Chair</strong>
+                    <br />
+                    Year:
+                    <strong>Graduated!</strong>
+                    <br />Major: <strong>Human Development & Learning</strong>
+                    <br />Minor:
+                    <strong>Latin American & Latino Studies</strong>
+                    <br /><strong>Sir Temachti</strong>
+                    <u>#51</u>
+                  </p>
+                </div>
+                <div class="img-box">
+                  <img
+                    src="img/hugo_solo.jpg"
+                    class="carousel-img"
+                    alt="Picture of One of the Members"
+                  />
+                </div>
+              </li>
+
+              <li class="slide-item grid--2-cols">
+                <div class="img-box">
+                  <img
+                    src="img/josoO_solo.jpg"
+                    class="carousel-img"
+                    alt="Picture of One of the Members"
+                  />
+                </div>
+                <div id="dos" class="member-info">
+                  <h2 class="member-order">Deuce</h2>
+                  <p class="name-text">Jose Olivares</p>
+                  <p class="info-text">
+                    Position:
+                    <strong>Sergeant of Arms & LGC Representative</strong>
+                    <br />
+                    Year:
+                    <strong>Junior</strong>
+                    <br />Major: <strong>Math and Computer Science</strong>
+                    <br /><strong>Sir Judas</strong>
+                    <u>#52</u>
+                  </p>
+                </div>
+              </li>
+
+              <li class="slide-item grid--2-cols">
+                <div id="tres" class="member-info">
+                  <h2 class="member-order">Tres</h2>
+                  <p class="name-text">Angel Tochimani</p>
+                  <p class="info-text">
+                    Position:
+                    <strong>Treasurer</strong>
+                    <br />
+                    Year:
+                    <strong>Junior</strong>
+                    <br />Major: <strong>Psychology</strong> <br /><strong
+                      >Sir Shun</strong
+                    >
+                    <u>#53</u>
+                  </p>
+                </div>
+                <div class="img-box">
+                  <img
+                    src="img/angel_solo.jpg"
+                    class="carousel-img"
+                    alt="Picture of One of the Members"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="bigBox">
+        <div class="container">
+          <span class="subheading center-text">&mdash; Update &mdash;</span>
+          <h2 class="heading-secondary center-text">Where is Hugo</h2>
+        </div>
+        <div class="container grid grid--2-cols hugo-box">
+          <div>
+            <p class="text-description">
+              First, Congratulations Hugo for crossing and graduating at the
+              same time! We understand that it was not easy and we appreciate
+              the hardwork you put into your studies and fraternity.
+              <br /><br />However, this is not the end of Hugo. Hugo recently
+              accepted the position to become the Reginal Director of Academics!
+              He will be maintaining and tracking all records of all memebers in
+              the Midwest Region!
+
+              <br /><br />The life of ODPhi does not end when you graduate!
+            </p>
+          </div>
+          <div class="img-box">
+            <img
+              src="img/hugo_graduated.JPG"
+              class="hugo-img"
+              alt="Graduation day for Hugo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="container">
+          <span class="subheading center-text"
+            >&mdash; Who is Next &mdash;</span
+          >
+          <h2 class="heading-secondary center-text">
+            Who Will Join the Zi Line
+          </h2>
+        </div>
+        <div class="container grid grid--2-cols hugo-box">
+          <div>
+            <p class="text-description">
+              ODPHi is a muticultural fraternity that takes pride in diversity.
+              One of our goals is to provide a diverse fraternal experience to
+              ANY man. Get to know us and we will to know you and then you can
+              decide if it is your destiny to become a knight!
+            </p>
+          </div>
+          <div class="img-box">
+            <img
+              src="img/they're_coming_knight.JPG"
+              class="carousel-img"
+              alt="the new knights are coming"
+            />
+          </div>
+        </div>
+      </div>
+
+      <section id="cta" class="section-cta" id="form">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Lets Meet Up!</h2>
+              <p class="cta-text">
+                This was only a glimpse into the life of Omege Delta Phi's Mu
+                Line. If you would like to join or just hang out with us, let us
+                know!
+              </p>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@uic.edu"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">How did you find us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="member">Member</option>
+                    <option value="social">Social Media</option>
+                    <option value="campus">On Campus</option>
+                    <option value="fair">Involvement Fair</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Link</button>
+              </form>
+            </div>
+            <div class="cta-img-box" role="img" aria-label="the mu line"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <main class="service-page">
+      <div class="container grid grid--2-cols service-box">
+        <div>
+          <div class="container">
+            <span class="subheading center-text"
+              >&mdash; What We Do &mdash;</span
+            >
+            <h2 class="heading-social center-text">Service Events</h2>
+          </div>
+          <p class="description">
+            ODPhi absolutely values community service. We volunteer for the
+            betterment of ourselves and our community. With each volunteering
+            experience we develop deeper connections to those in our community,
+            a better understanding of what we can do to become strong advocates,
+            and strong leadership qualities that we can take everywhere we go.
+          </p>
+        </div>
+        <div>
+          <div class="container">
+            <span class="subheading center-text"
+              >&mdash; What's Next &mdash;</span
+            >
+            <h2 class="heading-social center-text">
+              Future Partnering Organizations
+            </h2>
+          </div>
+          <p class="description">
+            We are constantly trying to branch out and help any and everywhere
+            we can. We are currently working with the Forest Preserve District,
+            Care For Real Organization, Man of Harbor, and of course Greater
+            Chicago Food Depository. We hope to continuing partner with man more
+            organizations to gain all sorts of skills.
+          </p>
+        </div>
+      </div>
+
+      <div class="container margin-bottom-md">
+        <div class="container">
+          <span class="subheading center-text"
+            >&mdash; Building Connections &mdash;</span
+          >
+          <h2 class="heading-social center-text">Service Socials</h2>
+        </div>
+        <p class="description">
+          Why hog all of the fun? We partner with many different organizations
+          whenever we can to lend a helping hand. The more the merrier. We not
+          only achive more with greater man power but we also gain wonderful
+          friendships that exist beyond greek life.
+        </p>
+        <div class="grid grid--3-cols">
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/mlk_mini_social.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/gcfd_social_flier.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/mlk_social_group.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <span class="subheading center-text"
+          >&mdash;Recent Experiences &mdash;</span
+        >
+        <h2 class="heading-secondary center-text">Service Gallary</h2>
+        <div class="grid grid--3-cols">
+          <!-- <div class="social-service-box">
+          <img
+            class="social-img"
+            src="img/service/hotcho_run.jpg"
+            alt="hot chocolate run picture"
+          />
+        </div> -->
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/gcfd_gal1.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/gcfd_gal2.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/gcfd_gal3.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/gcfd_gal4.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/gcfd_gal5.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+          <div class="social-service-box">
+            <img
+              class="social-img"
+              src="img/service/gcfd_gal6.jpg"
+              alt="nu line pic with PME"
+            />
+          </div>
+          <!-- <div class="social-service-box">
+          <img
+            class="social-img"
+            src="img/service/mlk_service1.jpg"
+            alt="nu line pic with PME"
+          />
+        </div> -->
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
       <div class="container grid grid--footer footer-box">
         <div class="logo-col">
           <a href="#" class="footer-logo">
-            <img class="logo" alt="OmegaDelatPhi logo" src="img/footer-logo.png" />
+            <img
+              class="logo"
+              alt="OmegaDelatPhi logo"
+              src="img/footer-logo.png"
+            />
           </a>
 
           <ul class="social-links">
             <li>
               <a class="footer-link" href="#"
-                ><ion-icon class="icon instagram" name="logo-instagram"></ion-icon
+                ><ion-icon
+                  class="icon instagram"
+                  name="logo-instagram"
+                ></ion-icon
               ></a>
             </li>
             <li>
@@ -593,20 +1048,17 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; <span class="year">2022</span> by Omega Delta Phi, UIC.
-            All rights reserved.
+            Copyright &copy; <span class="year">2022</span> by Omega Delta Phi,
+            UIC. All rights reserved.
           </p>
         </div>
 
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
-            <p class="address">
-              UIC Student Center East
-            </p>
+            <p class="address">UIC Student Center East</p>
             <p>
-              <a class="footer-link" href="tel:773-875-4389">Call Us</a
-              ><br />
+              <a class="footer-link" href="tel:773-875-4389">Call Us</a><br />
               <a class="footer-link" href="mailto:hello@omegadeltaphi.edu"
                 >hello@omnifood.com</a
               >
