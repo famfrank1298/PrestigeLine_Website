@@ -122,8 +122,8 @@
 }
 
 .mini-imgs {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 3.2rem;
   transition: all 1s;
 }

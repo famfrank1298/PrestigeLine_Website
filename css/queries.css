@@ -522,6 +522,14 @@
   .social-img {
     width: 90%;
   }
+
+  .mini-imgs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero {
+    margin: 0 2rem;
+  }
 }
 
 /**************************/
@@ -570,6 +578,10 @@
 
   .footer-box {
     padding: 0 1.2rem;
+  }
+
+  .hero {
+    margin: 0 2rem;
   }
 }
 
