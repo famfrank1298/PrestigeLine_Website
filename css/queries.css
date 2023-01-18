@@ -166,6 +166,10 @@
   .main-nav-link:visited {
     font-size: 3rem;
   }
+
+  .description {
+    font-size: 2.4rem;
+  }
 }
 
 /**************************/
@@ -216,6 +220,14 @@
   .btn--form {
     margin-top: 1.2rem;
   }
+
+  .noir-img {
+    width: 60%;
+  }
+
+  .hugo-img {
+    width: 100%;
+  }
 }
 
 /**************************/
@@ -229,6 +241,10 @@
     padding: 2.4rem 0;
     box-shadow: none;
     border-radius: 10%;
+  }
+
+  .noir-img {
+    width: 70%;
   }
 }
 
@@ -279,6 +295,10 @@
     align-items: center;
     width: 100%;
   }
+
+  .noir-img {
+    width: 65%;
+  }
 }
 
 /**************************/
@@ -292,6 +312,44 @@
 
   .active-top {
     column-gap: 0.8rem;
+  }
+
+  .noir-img {
+    width: 80%;
+  }
+
+  .hugo-box {
+    padding: 2rem;
+    margin: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .bigBox {
+    padding: 1rem;
+  }
+
+  .social-col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .social-service-box {
+    margin: auto;
+  }
+
+  .social-img {
+    width: 50%;
+  }
+
+  .prestige-img {
+    width: 100%;
   }
 }
 
@@ -312,6 +370,10 @@
   .hero {
     margin: 0;
     padding: 0 1.2rem;
+  }
+
+  .hero-img {
+    width: 70%;
   }
 
   .heading-secondary {
@@ -347,10 +409,30 @@
   .member-info {
     padding: 1.2rem 0;
   }
+
+  .event-img {
+    width: 75%;
+  }
+
+  .noir-img {
+    width: 90%;
+  }
+
+  .text-description {
+    padding: 1rem 0;
+  }
+
+  .social-img {
+    width: 65%;
+  }
+
+  .hugo-img {
+    width: 80%;
+  }
 }
 
 /**************************/
-/* BELOW 440px (Phones) */
+/* BELOW 432px (Phones) */
 /**************************/
 @media (max-width: 27em) {
   .slide-item {
@@ -388,6 +470,31 @@
   .cta-text-box {
     padding: 1.2rem 1.8rem;
   }
+
+  .hugo-img {
+    width: 60%;
+  }
+
+  .noir-img {
+    width: 100%;
+  }
+
+  .social-img {
+    width: 80%;
+  }
+
+  .service-img {
+    width: 60%;
+  }
+
+  .prestige-img {
+    width: 80%;
+  }
+
+  .bowling-gallary-box {
+    grid-template-columns: repeat(2, 1.5fr);
+    gap: 1.8rem;
+  }
 }
 
 /**************************/
@@ -410,6 +517,10 @@
 
   .cta {
     grid-template-columns: 1fr;
+  }
+
+  .social-img {
+    width: 90%;
   }
 }
 

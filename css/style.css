@@ -207,6 +207,7 @@
 
 .img-box {
   text-align: center;
+  margin: auto;
 }
 
 /**************************/
@@ -670,6 +671,9 @@
   overflow: hidden;
   padding: 3rem;
   border-radius: 4rem;
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /*Service File*/
@@ -686,8 +690,21 @@
 
 .social-img {
   width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.service-img {
+  width: 55%;
+  margin: auto;
+  display: block;
 }
 
 .service-box {
   margin-top: 4.2rem;
+}
+
+.social-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
