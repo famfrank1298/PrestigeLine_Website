@@ -11,7 +11,6 @@
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
-  border-bottom: 1px solid #5c1010;
 }
 
 .logo {
@@ -133,11 +132,12 @@
   width: 7.4rem;
   border-radius: 40%;
   border: 3px solid #a25c5c;
+  transition: all 0.5s;
 }
 
 .mini-imgs img:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 2rem #791919;
+  transform: scale(1.1);
+  box-shadow: 0 0 0.5rem #791919;
 }
 
 .delivered-imgs img:last-child {
@@ -647,6 +647,7 @@
   width: 40%;
   margin: auto;
   display: block;
+  padding: 1rem 0;
 }
 
 .hugo-img {
@@ -671,7 +672,7 @@
   overflow: hidden;
   padding: 3rem;
   border-radius: 4rem;
-  margin: 3rem;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -695,7 +696,7 @@
 }
 
 .service-img {
-  width: 55%;
+  width: 100%;
   margin: auto;
   display: block;
 }
@@ -707,4 +708,5 @@
 .social-col {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
 }

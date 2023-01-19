@@ -65,8 +65,8 @@ allLinks.forEach(function (link) {
 // Sticky navigation
 
 const sectionHeroEl = document.querySelector(".section-hero");
-const sectionNuEl = document.querySelector(".nu-box");
-const sectionServiceEl = document.querySelector(".service-box");
+// const sectionNuEl = document.querySelector(".nu-box");
+// const sectionServiceEl = document.querySelector(".service-box");
 
 const obs = new IntersectionObserver(
   function (entries) {
@@ -89,8 +89,8 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
-obs.observe(sectionNuEl);
-obs.observe(sectionServiceEl);
+// obs.observe(sectionNuEl);
+// obs.observe(sectionServiceEl);
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
