@@ -99,13 +99,20 @@
   gap: 5.6rem;
   /* align-items: center; */
 
-  max-width: 140rem;
+  max-width: 90%;
   /* padding: 0 3.2rem; */
+  margin: 0 auto;
+}
+
+.hero-text-box {
+  display: block;
   margin: 0 auto;
 }
 
 .hero-text-box span {
   color: #5c1010;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-description {
