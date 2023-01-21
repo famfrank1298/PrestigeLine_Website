@@ -93,11 +93,15 @@
 .hero {
   /* max-width: 145rem; */
   /* margin: 0 auto; */
-  padding: 0 3.2rem;
+  /* padding: 0 3.2rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 9.6rem;
+  gap: 5.6rem;
   /* align-items: center; */
+
+  max-width: 140rem;
+  /* padding: 0 3.2rem; */
+  margin: 0 auto;
 }
 
 .hero-text-box span {
